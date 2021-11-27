@@ -168,10 +168,6 @@ button{
 .img-frame-lg,.img-frame-rd-lg{
 	padding:14px;
 }
-/*  Image Protection */
-.img-protected{
-	-webkit-touch-callout: none;
-}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -221,6 +217,14 @@ button{
 }
 
 
+
+.carousel-nav-icon{
+	fill: none;
+	stroke: #fff;
+	stroke-width: 2px;
+	fill-rule: evenodd;
+	stroke-linecap:round;
+}
 
 
 /* ScrollToTop button */
@@ -287,6 +291,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .startmargintop{
 	margin-top:50px;
+}
+.img-bloc-0-style{
+	height:467px;
 }
 
 /* = Colour
@@ -407,12 +414,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-top:0px;
 		margin-bottom:0px;
 	}
-	.img-style{
-		height:407px;
-		border-radius:12px 12px 12px 12px;
-	}
 	.img-bloc-0-style{
-		height:397px;
+		height:500px;
 	}
 	.startmargintop{
 		margin-top:0px;
@@ -441,6 +444,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.paddingtop{
 		margin-top:50px;
+	}
+	.img-3-style{
+		height:500px;
 	}
 	
 	/* MD Row Margin Offsets */
