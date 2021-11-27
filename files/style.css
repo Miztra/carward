@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	test2
+	files
 	About: A shiny new Blocs website.
 	Author: Peter Jönsson
 	Version: 1.0
@@ -417,6 +417,29 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.startmargintop{
 		margin-top:0px;
 		margin-bottom:1px;
+	}
+	.container{
+		max-width:2048px;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	.bloc-divider-b-fill{
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	.bloc-divider-t-fill{
+		margin:0px 0px 0px 0px;
+	}
+	.nosides{
+		border-style:_popUpItemAction:;
+		background-size:auto auto;
+		padding-right:-10px;
+		padding-left:-10px;
+	}
+	
+	/* MD Row Margin Offsets */
+	.voffset-clear-md{
+		margin-top:0;
 	}
 	
 	/* MD Text Margin Offsets */
