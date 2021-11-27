@@ -436,6 +436,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		padding-right:-10px;
 		padding-left:-10px;
 	}
+	.img-snowlogosma-style{
+		width:769px;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
