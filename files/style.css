@@ -133,12 +133,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:100%;
 	left:auto}
 }
-/* = Bric adjustment margins
--------------------------------------------------------------- */
-
-.mg-clear{
-	margin:0;
-}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -451,6 +445,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-3-style{
 		height:500px;
+	}
+	.bigheader{
+		font-size:24px;
+		color:#1B1B1B!important;
 	}
 	
 	/* MD Row Margin Offsets */
