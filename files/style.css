@@ -459,7 +459,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	
 	/* MD Text Margin Offsets */
-	.mg-md-md{
+	.mg-sm-md{
+		margin-top:10px;
+		margin-bottom:5px;
+	}
+		.mg-md-md{
 		margin-top:10px;
 		margin-bottom:20px;
 	}
