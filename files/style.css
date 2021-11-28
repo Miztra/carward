@@ -309,12 +309,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#F2F2F7;
 }
 
-/* Text colour styles */
-
-.tc-blue-ncs{
-	color:#1183C3!important;
-}
-
 /* Link colour styles */
 
 .ltc-blue-ncs{
@@ -459,11 +453,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	
 	/* MD Text Margin Offsets */
-	.mg-sm-md{
-		margin-top:10px;
-		margin-bottom:5px;
-	}
-		.mg-md-md{
+	.mg-md-md{
 		margin-top:10px;
 		margin-bottom:20px;
 	}
