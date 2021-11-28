@@ -450,6 +450,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:24px;
 		color:#1B1B1B!important;
 	}
+	.margonfromtop{
+		padding-top:30px;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
