@@ -133,6 +133,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:100%;
 	left:auto}
 }
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-clear{
+	margin:0;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -467,7 +473,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.list-style{
 		width:100%;
 		min-width:10%;
-		font-family:"(null)";
 	}
 	
 }
