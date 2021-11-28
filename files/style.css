@@ -226,6 +226,10 @@ button{
 	stroke-linecap:round;
 }
 
+.hide-indicators{
+	display:none;
+}
+
 
 /* ScrollToTop button */
 
