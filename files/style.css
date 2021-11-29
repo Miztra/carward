@@ -278,9 +278,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .text-span-color{
 	color:#000000;
 }
-.p-bloc-1-style{
-	font-size:14px;
-}
 .startmargintop{
 	margin-top:50px;
 }
@@ -427,7 +424,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bigheader{
 		font-size:24px;
-		color:#1B1B1B!important;
+	}
+	.nosideskem{
+		margin-left:-10px;
+	}
+	.p-bloc-0-style{
+		width:100%;
+	}
+	.card-header-style{
+		width:100%;
 	}
 	
 	/* MD Row Margin Offsets */
