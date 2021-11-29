@@ -136,6 +136,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -433,6 +436,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.card-header-style{
 		width:100%;
+	}
+	.p-30-style{
+		line-height:0px;
+		font-size:0px;
 	}
 	
 	/* MD Row Margin Offsets */
