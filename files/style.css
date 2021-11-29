@@ -441,6 +441,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		line-height:0px;
 		font-size:0px;
 	}
+	.img-style{
+		height:450px;
+	}
 	
 	/* MD Row Margin Offsets */
 	.voffset-clear-md{
