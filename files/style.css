@@ -485,6 +485,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.startmargintop{
 		margin-top:5px;
 	}
+	.nopaddingfix{
+	}
+	.nosides{
+	}
+	.startmiddle{
+		margin-top:30px;
+	}
 	
 }
 
