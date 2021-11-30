@@ -207,6 +207,13 @@ button{
 	padding:0;
 }
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 
 .carousel-nav-icon{
@@ -246,6 +253,41 @@ button{
 	stroke-width: 2px;
 	fill-rule: evenodd;
 	stroke-linecap:round;
+}
+
+/* Wordpress Paginate */
+.wp-paginate {
+	margin: 20px 0;
+	text-align: center;
+}
+.wp-paginate a,.wp-paginate .current{
+	background:rgba(0,0,0,.1);
+	color: rgba(0,0,0,0.8);
+	font-size: 14px;
+	padding: 3px 8px 4px 8px;
+	border-radius: 3px;
+	margin:3px;
+}
+.wp-paginate a:hover, .wp-paginate .current{
+	background:rgba(0,0,0,.5);
+	color: #FFF;
+}
+.wp-paginate .screen-reader-text{
+	display:none;
+}
+.wp-paginate .nav-links{
+	width:100%;
+}
+.wp-paginate-dark.wp-paginate a,.wp-comments-dark .wp-paginate a{
+	background:rgba(255,255,255,.2);
+	color: rgba(255,255,255,.5);
+}
+.wp-paginate-dark .page-numbers.dots{
+	color:rgba(255,255,255,.5);
+}
+.wp-paginate-dark.wp-paginate a:hover, .wp-paginate-dark.wp-paginate .current, .wp-comments-dark .wp-paginate a:hover, .wp-comments-dark .wp-paginate .current{
+	background:rgba(255,255,255,.5);
+	color: #FFF;
 }
 
 /* = Custom Styling
@@ -306,6 +348,92 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 
+/* = Custom Bric Data
+-------------------------------------------------------------- */
+
+/* Wordpress Comments */.wp-comments-title{
+	  color: rgba(0,0,0,.8);
+}
+.wp-comment ol.children{
+	  list-style: none;
+}
+.wp-comment-required{
+	  color:red;
+}
+.wp-comment ol.children .card:before{
+	    content: "";
+	    width:2%;
+	    height:50%;
+	    border:2px solid rgba(0,0,0,.3);
+	    border-top-width: 0;
+	    border-right-width: 0;
+	    position: absolute;
+	    left:-3%;
+}
+.wp-comment-content{
+	  display: flex;
+}
+.wp-comment-author, .wp-comment-title{
+	  font-weight: bold;
+	  font-size: 14px;
+	  color: rgba(0,0,0,.8);
+}
+.wp-comment-link,.wp-comment-link:visited{
+	  color: rgba(0,0,0,.6);
+	  font-size: 12px;
+}
+.wp-comment-link:hover,.wp-comment-link:focus{
+	  color: rgba(0,0,0,0.8);
+}
+.wp-reply-link a{
+	  font-size: 14px;
+}
+.wp-comment-submit-btn{
+	  color:#FFF;
+	  background:rgba(0,0,0,.3);
+}
+.wp-comment-submit-btn:hover,.wp-comment-submit-btn:active {
+	  color:#FFF;
+	  background:rgba(0,0,0,.5);
+}
+/* Dark Theme */.wp-comments-dark .card{
+	background:rgba(255,255,255,.2);
+}
+.wp-comments-dark .wp-comments-title, .wp-comments-dark .wp-comment-author, .wp-comments-dark .wp-comment-title, .wp-comments-dark .wp-comment-link:hover, .wp-comments-dark .wp-comment-link:focus, .wp-comments-dark .must-log-in a, .wp-comments-dark .must-log-in a:hover,.wp-comments-dark .must-log-in a:focus{
+	color: rgba(255,255,255,.8);
+}
+.wp-comments-dark .wp-comment-content, .wp-comments-dark .wp-comment-link,.wp-comments-dark .wp-comment-link:visited,.wp-comments-dark .comment-notes,.wp-comments-dark .comment-form-author, .wp-comments-dark .comment-form-email, .wp-comments-dark .comment-form-url,.wp-comments-dark .wp-no-comments,.wp-comments-dark .must-log-in{
+	color: rgba(255,255,255,.6);
+}
+.wp-comments-dark .wp-comment ol.children .card:before{
+	border-color: rgba(255,255,255,.5);
+}
+.wp-comments-dark.wp-comment-seperator-style .card{
+	border-color: rgba(255,255,255,.2);
+}
+.wp-comments-dark .wp-comment-submit-btn{
+	background:rgba(255,255,255,.2);
+	color:#FFF;
+}
+.wp-comments-dark .wp-comment-submit-btn:hover,.wp-comments-dark .wp-comment-submit-btn:active {
+	background:rgba(255,255,255,.4);
+}
+.wp-comment-seperator-style .card{
+	border-width: 0 0 1px 0;
+	border-color:rgba(0,0,0,.1);
+	border-radius: 0;
+	background: transparent;
+}
+.wp-comment-seperator-style .wp-comment ol.children .card:before{
+	border-width: 0 0 1px 1px;
+}
+.wp-comment-seperator-style .card-body{
+	padding:5px 0}.wp-comments-round-avatars img{
+	border-radius: 50%!important;
+}
+.wp-comments-hide-avatar img{
+	display:none;
+}
 
 
 /* = Bloc Padding Multi Breakpoint
