@@ -463,7 +463,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		opacity:1.0;
 	}
 	.center{
+		justify-content:center;
+		align-content:center;
+		right:0px;
+		left:0px;
+		background-position:left center;
 		text-align:center;
+		text-decoration:none;
 	}
 	
 }
