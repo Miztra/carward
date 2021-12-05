@@ -391,8 +391,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-bottom:0px;
 	}
 	.startmargintop{
-		margin-top:220px;
 		margin-bottom:1px;
+		margin-top:50%;
 	}
 	.container{
 		max-width:2048px;
