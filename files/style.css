@@ -485,6 +485,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-style{
 		width:577px;
 	}
+	.margincodetop{
+		margin-top:-10px;
+	}
 	
 }
 
