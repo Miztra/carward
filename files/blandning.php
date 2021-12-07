@@ -8,9 +8,9 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?3274">
-	<link rel="stylesheet" type="text/css" href="style.css?305">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?1895">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2198">
+	<link rel="stylesheet" type="text/css" href="style.css?1866">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?3602">
 	
     <title>Blandning</title>
 
@@ -106,7 +106,7 @@ echo "Börja med att fyll först på ".$MLkonc; echo"ml vatten i behållaren och
 							Procent<br>
 						</h3>
 					</div>
-					<div class="card-body">
+					<div class="card-body ">
 					</div>
 				</div>
 			</div>
@@ -115,46 +115,14 @@ echo "Börja med att fyll först på ".$MLkonc; echo"ml vatten i behållaren och
 </div>
 <!-- bloc-17 END -->
 
-<!-- bloc-18 -->
-<div class="bloc l-bloc" id="bloc-18">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col">
-				<div class=" ">
-					<form method="post" id="form_35729">  
-Storlek på behållaren:  
-<input type="number" name="number1" id="undefined_9543_33531_35729"><br><br>  
-Blandningsförhållande::  
-<input type="number" name="number2" id="undefined_9543_33531_35729"><br><br>  
-<input type="submit" name="submit" value="Add" id="undefined_9543_33531_35729">  
-</form>  
-<?php  
-    if(isset($_POST['submit']))  
-    {  
-        	$number1 = $_POST['number1'];  
-        	$number2 = $_POST['number2'];  
-        	$MLkonc =  $number1/$number2;
-			$MLvatt =  $number1-$MLkonc;
-		
-echo "Börja med att fyll först på ".$MLkonc; echo"ml vatten i behållaren och sedan på med ".$MLvatt; echo"ml koncentrat.";
-}  
-?>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-18 END -->
-
 </div>
 <!-- Main container END -->
     
 
 
 <!-- Additional JS -->
-<script src="./js/bootstrap.bundle.min.js?9090"></script>
-<script src="./js/blocs.min.js?5310"></script>
+<script src="./js/bootstrap.bundle.min.js?7025"></script>
+<script src="./js/blocs.min.js?7353"></script>
 <script src="./js/lazysizes.min.js" defer></script><!-- Additional JS END -->
 
 
